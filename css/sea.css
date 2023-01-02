@@ -79,201 +79,150 @@ button{
 #hero{
     padding: 40px 0;
 }
-.hero h2{
+.hero h3{
     text-align: center;
     font-weight: 600;
     font-size: 16px;
     color: #16FCD2;
 }
 .hero h1{
+    padding: 20px 0;
     font-weight: 700;
     font-size: 36px;
     text-align: center;
     color: #FFFFFF;
 }
-.hero-line{
-    margin: 30px 0;
-    width: 90%;
-    height: 2px;
-    background: #484646;
+.hero p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
 }
 /*hero-end*/
 
-/*solve-start*/
-#solve{
+/*moved-start*/
+#moved{
     padding: 40px 0;
 }
-.solve{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.moved img{
+       margin-left: 155px;
 }
-.solve-logo p{
-    padding: 30px 0;
-    width: 502px;
+.moved p{
     font-weight: 500;
     font-size: 16px;
-    line-height: 32px;
-    color: rgba(255, 255, 255, 0.6);
-}
-.solve-title div{
-    margin-right: 5px;
-    width: 8px;
-    height: 8px;
-    background: #FFFFFF;
-    transform: matrix(1, 0, 0, -1, 0, 0);
-}
-.solve-title h4{
-    font-weight: 500;
-    font-size: 16px;
+    line-height: 34px;
     color: #FFFFFF;
+    width: 674px;
+    padding: 20px 155px;
 }
-.solve-title{
-    padding: 10px 0;
-    display: flex;
-    align-items: center;
-}
-/*solve-end*/
-
-/*will-start*/
-#will{
-    padding: 40px 0;
-}
-.will h3{
-    font-weight: 600;
-    font-size: 16px;
-    text-align: center;
-    color: #16FCD2;
-}
-.will h1{
-    padding: 15px 0;
+.moved h1{
     font-weight: 700;
     font-size: 30px;
+    color: #FFFFFF;
     text-align: center;
-    color: #FFFFFF;
 }
-.will-block{
-    width: 328px;
-    height: 278px;
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 3px;
-}
-.will-title{
-    margin-left: 50px;
-}
-.will-title img{
-    margin-top: 30px;
-}
-.will-title h2{
-    padding: 15px 0;
-    font-weight: 700;
-    font-size: 18px;
-    color: #FFFFFF;
-}
-.will-title p{
+.moved h5{
     font-weight: 500;
-    font-size: 16px;
-    color: rgba(255, 255, 255, 0.6);
-    line-height: 32px;
-}
-.will-logo{
-    margin: 50px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-/*will-end*/
-
-/*asked-start*/
-#asked{
-    padding: 40px 0;
-}
-.asked{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-.asked-circle{
-    width: 47px;
-    height: 47px;
-    background: linear-gradient(180deg, #FF81A6 0%, #FC165B 100%);
-    filter: blur(5px);
-    transform: rotate(-34.72deg);
-    border-radius: 50%;
-}
-.asked-logo{
-    margin-bottom: 150px;
-    width: 56px;
-    height: 56px;
-    background: linear-gradient(180deg, #66FFA3 0%, #009C3E 100%);
-    filter: blur(5px);
-    transform: rotate(-34.72deg);
-    border-radius: 50%;
-}
-.asked-title{
-    margin-top: 210px;
-    width: 30px;
-    height: 30px;
-    background: #6016FC;
-    filter: blur(5px);
-    transform: rotate(-34.72deg);
-    border-radius: 50%;
-}
-.asked h2{
-    font-weight: 600;
-    font-size: 16px;
-    text-align: center;
-    color: #16FCD2;
-}
-.asked h1{
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 48px;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-/*asked-end*/
-
-#text{
-    padding: 40px 0;
-}
-#text h2{
-    padding: 15px 0;
-    text-align: center;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 32px;
-    color: #FFFFFF;
-}
-#text h2 span{
-    color: #7a56c7;
-}
-.text{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-.text-logo h1{
-    padding-top: 50px;
-    font-weight: 700;
     font-size: 20px;
-    line-height: 48px;
+    line-height: 40px;
+    text-align: center;
     color: #FFFFFF;
 }
-.text-logo p{
+.moved h6{
     font-weight: 500;
-    font-size: 16px;
-    line-height: 32px;
-    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
 }
-.text h2{
+.moved-logo div{
+    margin-left: 155px;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #FFFFFF;
+}
+.moved-logo h4{
+    padding: 10px 0;
     font-weight: 500;
     font-size: 16px;
-    color: #FFFFFF;}
-    span{
-        color: #250960;
-    }
+    color: #FFFFFF;
+}
+.moved-logo{
+    display: flex;
+    align-items: center;
+
+}
+.moved-btn{
+    margin-left: 155px;
+}
+.moved-btn button{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    width: 139px;
+    height: 33px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 100px;
+    margin-left: 30px;
+}
+.moved-btn button:hover{
+    transform: scale(1.1);
+    background: #6016FC;
+}
+.moved-desc{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.moved-block{
+    margin-top: 20px;
+    margin-left: 155px;
+    display: flex;
+    align-items: center;
+    width: 676px;
+    height: 279px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 5px;
+}
+.moved-block img{
+    padding: 0 30px;
+}
+.moved-block h3{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.moved-block p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 34px;
+    width: 442px;
+    color: #FFFFFF;
+    padding: 30px 0;
+}
+.moved-title{
+    display: flex;
+    align-items: center;
+}
+.moved-title div{
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 100px;
+}
+.moved-title ion-icon{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+/*moved-end*/
 
 
 /*time-start*/
