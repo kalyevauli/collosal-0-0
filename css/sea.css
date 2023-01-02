@@ -222,6 +222,57 @@ button{
     margin-left: 10px;
     font-size: 20px;
 }
+#figma{
+    padding: 40px 0;
+}
+.figma-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.figma-title h1{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+.figma-title p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 34px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.figma-logo{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+.figma-logo h1{
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.figma-logo p{
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.figma-line{
+    width: 90%;
+    height: 1px;
+    background: #FFFFFF;
+}
+.figma h1{
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF;
+
+}
 
 /*moved-end*/
 
